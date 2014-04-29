@@ -7,3 +7,52 @@
 2014-04-27 09:18:01,634 ERROR [Worker-7] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 2014-04-27 09:18:01,649 ERROR [Worker-7] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
 2014-04-27 09:18:01,649 ERROR [Worker-7] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2014-04-27 11:26:18,199 ERROR [Scala Presentation Compiler [Lecture1]] - System.err - java.lang.Exception
+2014-04-27 11:26:18,200 ERROR [Scala Presentation Compiler [Lecture1]] - System.err - at scala.tools.nsc.interactive.Global$$anonfun$getOrCreateUnitOf$1.apply(Global.scala:155)
+2014-04-27 11:26:18,200 ERROR [Scala Presentation Compiler [Lecture1]] - System.err - at scala.tools.nsc.interactive.Global$$anonfun$getOrCreateUnitOf$1.apply(Global.scala:155)
+2014-04-27 11:26:18,200 ERROR [Scala Presentation Compiler [Lecture1]] - System.err - at scala.collection.MapLike$class.getOrElse(MapLike.scala:128)
+2014-04-27 11:26:18,200 ERROR [Scala Presentation Compiler [Lecture1]] - System.err - at scala.collection.AbstractMap.getOrElse(Map.scala:58)
+2014-04-27 11:26:18,208 ERROR [Scala Presentation Compiler [Lecture1]] - System.err - at scala.tools.nsc.interactive.Global.getOrCreateUnitOf(Global.scala:155)
+2014-04-27 11:26:18,209 ERROR [Scala Presentation Compiler [Lecture1]] - System.err - at scala.tools.nsc.interactive.Global.typedTree(Global.scala:755)
+2014-04-27 11:26:18,209 ERROR [Scala Presentation Compiler [Lecture1]] - System.err - at scala.tools.nsc.interactive.ProgramInstrumenter$Instrumenter$.scala$tools$nsc$interactive$ProgramInstrumenter$Instrumenter$$instrumentation(ProgramInstrumenter.scala:31)
+2014-04-27 11:26:18,209 ERROR [Scala Presentation Compiler [Lecture1]] - System.err - at scala.tools.nsc.interactive.ProgramInstrumenter$Instrumenter$$anonfun$askInstrumentation$1.apply(ProgramInstrumenter.scala:15)
+2014-04-27 11:26:18,209 ERROR [Scala Presentation Compiler [Lecture1]] - System.err - at scala.tools.nsc.interactive.ProgramInstrumenter$Instrumenter$$anonfun$askInstrumentation$1.apply(ProgramInstrumenter.scala:15)
+2014-04-27 11:26:18,209 ERROR [Scala Presentation Compiler [Lecture1]] - System.err - at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:623)
+2014-04-27 11:26:18,209 ERROR [Scala Presentation Compiler [Lecture1]] - System.err - at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:623)
+2014-04-27 11:26:18,209 ERROR [Scala Presentation Compiler [Lecture1]] - System.err - at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:630)
+2014-04-27 11:26:18,209 ERROR [Scala Presentation Compiler [Lecture1]] - System.err - at scala.tools.nsc.interactive.Global.respond(Global.scala:623)
+2014-04-27 11:26:18,209 ERROR [Scala Presentation Compiler [Lecture1]] - System.err - at scala.tools.nsc.interactive.ProgramInstrumenter$Instrumenter$.askInstrumentation(ProgramInstrumenter.scala:14)
+2014-04-27 11:26:18,209 ERROR [Scala Presentation Compiler [Lecture1]] - System.err - at scala.tools.nsc.interactive.ProgramInstrumenter$$anonfun$askInstrumented$1.apply$mcV$sp(ProgramInstrumenter.scala:51)
+2014-04-27 11:26:18,209 ERROR [Scala Presentation Compiler [Lecture1]] - System.err - at scala.tools.nsc.interactive.ProgramInstrumenter$$anonfun$askInstrumented$1.apply(ProgramInstrumenter.scala:51)
+2014-04-27 11:26:18,209 ERROR [Scala Presentation Compiler [Lecture1]] - System.err - at scala.tools.nsc.interactive.ProgramInstrumenter$$anonfun$askInstrumented$1.apply(ProgramInstrumenter.scala:51)
+2014-04-27 11:26:18,209 ERROR [Scala Presentation Compiler [Lecture1]] - System.err - at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+2014-04-27 11:26:18,209 ERROR [Scala Presentation Compiler [Lecture1]] - System.err - at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:346)
+2014-04-27 11:26:18,209 ERROR [Scala Presentation Compiler [Lecture1]] - System.err - at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:351)
+2014-04-27 11:26:18,209 ERROR [Scala Presentation Compiler [Lecture1]] - System.err - at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2014-04-27 12:04:24,634 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - Java Model Exception: Java Model Status [Lecture1 does not exist]
+2014-04-27 12:04:24,634 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:498)
+2014-04-27 12:04:24,634 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2309)
+2014-04-27 12:04:24,634 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1908)
+2014-04-27 12:04:24,634 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1930)
+2014-04-27 12:04:24,634 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at scala.tools.eclipse.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:138)
+2014-04-27 12:04:24,634 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at scala.tools.eclipse.ScalaProject.jdkPaths(ScalaProject.scala:80)
+2014-04-27 12:04:24,634 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at scala.tools.eclipse.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:118)
+2014-04-27 12:04:24,634 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at scala.tools.eclipse.ScalaProject.scalaClasspath(ScalaProject.scala:80)
+2014-04-27 12:04:24,634 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at scala.tools.eclipse.ScalaProject.setupCompilerClasspath(ScalaProject.scala:514)
+2014-04-27 12:04:24,634 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at scala.tools.eclipse.ScalaProject.initializeCompilerSettings(ScalaProject.scala:500)
+2014-04-27 12:04:24,634 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at scala.tools.eclipse.ScalaProject$$anon$1.create(ScalaProject.scala:99)
+2014-04-27 12:04:24,634 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at scala.tools.eclipse.ScalaProject$$anon$1.create(ScalaProject.scala:95)
+2014-04-27 12:04:24,634 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at scala.tools.eclipse.util.Cached$class.apply(Cached.scala:30)
+2014-04-27 12:04:24,635 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at scala.tools.eclipse.ScalaProject$$anon$1.apply(ScalaProject.scala:95)
+2014-04-27 12:04:24,635 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at scala.tools.eclipse.ScalaProject.withPresentationCompiler(ScalaProject.scala:594)
+2014-04-27 12:04:24,635 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.scalaide.worksheet.ScriptCompilationUnit.reconcile(ScriptCompilationUnit.scala:74)
+2014-04-27 12:04:24,635 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.scalaide.worksheet.reconciler.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:31)
+2014-04-27 12:04:24,635 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+2014-04-27 12:04:24,635 ERROR [org.eclipse.jface.text.reconciler.MonoReconciler] - System.err - at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2014-04-27 12:04:24,645 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Java Model Exception: Java Model Status [Lecture1 does not exist]
+2014-04-27 17:09:35,360 ERROR [Worker-3] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2014-04-27 17:09:35,361 ERROR [Worker-3] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2014-04-27 17:09:35,361 ERROR [Worker-3] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2014-04-28 20:39:23,648 ERROR [Worker-3] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2014-04-28 20:39:23,657 ERROR [Worker-3] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2014-04-28 20:39:23,657 ERROR [Worker-3] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
