@@ -34,8 +34,7 @@ object Main {
       else countParens(chars.drop(1), parenCount)
     }
         
-    if(chars.isEmpty) true
-    else if(countParens(chars, 0) == 0) true
+    if((chars.isEmpty) || (countParens(chars, 0) == 0)) true
     else false
   }
 
