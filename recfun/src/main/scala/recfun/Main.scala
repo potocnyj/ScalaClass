@@ -33,9 +33,8 @@ object Main {
       else if(chars.head.equals(')') && (parenCount <= 0)) -1
       else countParens(chars.drop(1), parenCount)
     }
-        
-    if((chars.isEmpty) || (countParens(chars, 0) == 0)) true
-    else false
+
+    ((chars.isEmpty) || (countParens(chars, 0) == 0))
   }
 
   /**
